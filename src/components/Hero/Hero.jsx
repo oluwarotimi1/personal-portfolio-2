@@ -16,12 +16,16 @@ const Hero = () => {
           <motion.span className="primaryText" variants={fadeIn("right", "tween", 0.2, 1)}>
             Hey There,
             <br />
-            I'm Binjan.
+            I'm Kenneth,
           </motion.span>
           <motion.span className="secondaryText"variants={fadeIn("left", "tween", 0.4, 1)}>
-            I design beautiful simple
+            I am a cyber security expert,
             <br />
-            things, And I love what i do{" "}
+             IT expert and
+            <br />
+            a content writer, And I love what i do{" "}
+            <br />
+            <btn style={{color:'red'}}>Scroll Down</btn>
           </motion.span>
         </div>
 
@@ -33,12 +37,12 @@ const Hero = () => {
         </motion.div>
 
         <a className={css.email} href="mailto:zainkeepscode@gmail.com">
-          zainkeepscode@gmail.com
+        soundnwankwo@gmail.com
         </a>
 
         <div className={css.lowerElements}>
           <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
-            <div className="primaryText">10</div>
+            <div className="primaryText">7</div>
             <div className="secondaryText">
               <div>Years</div>
               <div>Experience</div>
@@ -47,8 +51,8 @@ const Hero = () => {
 
           <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
             <img src="./certificate.png" alt="" />
-            <span>CERTIFIED PROFATIONAL</span>
-            <span>UI/UX DESIGNER</span>
+            <span>CERTIFIED CYBER TECHNICIAN</span>
+            <span>WEB DESIGNER</span>
           </motion.div>
         </div>
       </motion.div>
