@@ -2,6 +2,7 @@ import React from "react";
 import { fadeIn, slideIn, staggerContainer } from "../../utils/motion";
 import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
+import {FiChevronsDown} from 'react-icons/fi'
 const Hero = () => {
   return (
     <section className={`paddings ${css.wrapper}`}>
@@ -25,7 +26,11 @@ const Hero = () => {
             <br />
             a content writer, And I love what i do{" "}
             <br />
-            <btn style={{color:'red'}}>Scroll Down</btn>
+            <a className={css.scroll_down} href="#experties">
+            <btn style={{color:'red', textAlign:'center'}}>Scroll Down</btn>
+            <p><FiChevronsDown /></p>
+            </a>
+            
           </motion.span>
         </div>
 

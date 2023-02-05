@@ -88,5 +88,11 @@
             left: 0;
             color: orange;
         }
+        .scroll_down{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            text-decoration: none;
+        }
     }
 }

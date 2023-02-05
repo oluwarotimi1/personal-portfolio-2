@@ -1,11 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import css from "./Header.module.scss";
-import { BiPhoneCall, BiMenuAltRight } from "react-icons/bi";
+import { BiMenuAltRight } from "react-icons/bi";
+import {BsWhatsapp} from "react-icons/bs"
 import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
 import logo from '../../assets/sound_logo.png'
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const menuRef = useRef(null);
@@ -44,15 +46,16 @@ const Header = () => {
             <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#portfolio">Book a Session</a>
+            <Link to="/book">Book a Session
+            </Link>  
           </li>
           <li>
             <a href="#people">Testimonials</a>
           </li>
           <li className={`flexCenter ${css.phone}`}>
-            <p>+234 (803) 302 8425</p>
+            <Link to='https://wa.me/message/U2BVV3PZQC5NP1' target="_blank">+234 (803) 302 8425</Link>
             <a href="https://wa.me/message/U2BVV3PZQC5NP1" target="_blank">
-              <BiPhoneCall size={"40px"} />
+              <BsWhatsapp size={"40px"} />
             </a>
           </li>
         </ul>

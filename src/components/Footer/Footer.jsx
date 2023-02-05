@@ -4,6 +4,7 @@ import css from "./Footer.module.scss";
 import {motion} from 'framer-motion'
 const Footer = () => {
   return (
+    <>
     <motion.section
     variants={staggerChildren}
     initial="hidden"
@@ -28,7 +29,7 @@ const Footer = () => {
         <div className={css.right}>
           <div className={css.info}>
             <span className="secondaryText">Information</span>
-            <p>145 New York, FL 5467, USA</p>
+            <p>145 Kpagungu, FL 5467, Abija</p>
           </div>
           <ul className={css.menu}>
             <li>Services</li>
@@ -37,8 +38,12 @@ const Footer = () => {
             <li>Experience</li>
           </ul>
         </div>
+        
       </motion.div>
+      
     </motion.section>
+    <div className={css.tech_footer}>Oluwarotimi Tech &copy; 2023, Phone Number: +234 806 191 6170 </div>
+    </>
   );
 };
 
