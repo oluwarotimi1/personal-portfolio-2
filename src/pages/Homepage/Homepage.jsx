@@ -12,8 +12,8 @@ const Homepage = () => {
       <Header />
       <Hero />
       <Experties />
-      <Work />
-      <Portfolio />
+      <Portfolio /> 
+      <Work />    
       <People />
     </>
   );

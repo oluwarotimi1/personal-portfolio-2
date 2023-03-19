@@ -17,14 +17,14 @@ const Hero = () => {
           <motion.span className="primaryText" variants={fadeIn("right", "tween", 0.2, 1)}>
             Hey There,
             <br />
-            I'm Kenneth,
+            We Got You Covered!
           </motion.span>
           <motion.span className="secondaryText"variants={fadeIn("left", "tween", 0.4, 1)}>
-            I am a cyber security expert,
+            We offer remote-tech assitance,
             <br />
-             IT expert and
+            Academic Writing  and
             <br />
-            a content writer, And I love what i do{" "}
+            Crypto Training, And we love what we do{" "}
             <br />
             <a className={css.scroll_down} href="#experties">
             <btn style={{color:'red', textAlign:'center'}}>Scroll Down</btn>
@@ -47,17 +47,17 @@ const Hero = () => {
 
         <div className={css.lowerElements}>
           <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
-            <div className="primaryText">7</div>
+            <div className="primaryText">7+</div>
             <div className="secondaryText">
               <div>Years</div>
-              <div>Experience</div>
+              <div>Active</div>
             </div>
           </motion.div>
 
           <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
             <img src="./certificate.png" alt="" />
             <span>CERTIFIED CYBER TECHNICIAN</span>
-            <span>WEB DESIGNER</span>
+            <span>CRYPTO TRADER</span>
           </motion.div>
         </div>
       </motion.div>
@@ -66,3 +66,8 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
+// Crypto Training, portfolio arrangement
+// Remote tech assistance
+// Academic Writing (thesis assignment, research)
